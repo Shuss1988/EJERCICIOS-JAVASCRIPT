@@ -13,7 +13,7 @@ for (let i = 0; i <= 9; i++) {
     console.log("dormido");
     }
     else {
-    console.log("intentando dormir 🐑");
+    console.log("intentando dormir ");
     }
 
   }
