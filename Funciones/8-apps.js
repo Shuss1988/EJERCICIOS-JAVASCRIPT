@@ -13,7 +13,14 @@ const counterWords = [
     'upgrade',
     'code'
   ];
-  function repeatCounter(param) {
-    // insert code
-   
+  let duplicados = [];
+  const tempArray = [...counterWords].sort();
+  for (let index = 0; index < tempArray.length; index++) {
+    if(tempArray[index + 1] === tempArray[index]){
+      duplicados.push(tempArray[index]);
+    }
   }
+  console.log(duplicados);
+  
+
+   
