@@ -22,7 +22,6 @@ Recuerda que para usar .fetch() tendrás que probar el ejercicio en el navegador
 //     fetch('https://rickandmortyapi.com/api/character').then(res => res.json()).then(characters => console.log(characters));
 // }
 
-
 const getCharacters = async () => {
     const data = await fetch('https://rickandmortyapi.com/api/character'
     );
